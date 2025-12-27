@@ -46,7 +46,11 @@ function peak(arr) {
 
 ### Education
 * Belarusian State University of Informatics and Radioelectronics (engineer-programmer-economist)
+* JavaScript Manual on learnjavascript.ru(https://learn.javascript.ru/) (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
 ### English
 * _Advanced_ (accroding to the [EFSet](https://www.efset.org/) test)<br/>
 ![Image of the certificate](img/sertificate.png)
+* Russian - Native
+* Belarusian - Advanced
