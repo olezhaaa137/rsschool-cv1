@@ -50,7 +50,7 @@ body{
 }
 .specialization {
     height: 19px;
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', sans-serif;
     letter-spacing: 0.6px;
     font-weight: 400;
     font-size: 10px;
@@ -79,8 +79,12 @@ body{
     line-height: 17px;
     letter-spacing: -0.2px;
     color: #212121;
-    opacity: 0.7;
+    
     padding: 0 0 0 22px;
+}
+
+.contacts span{
+    opacity: 0.7;
 }
 
 .mail {
@@ -94,4 +98,202 @@ body{
 }
 .phone-number {
     background: url(img/icons/phone.svg) left 3px no-repeat;
+}
+
+.header {
+    font-family: "Trirong", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+    color: #212121;
+}
+
+
+
+.profile {
+    position: absolute;
+    left: 40px;
+    top: 204px;
+    width: 270px;
+}
+.header__profile {
+    width: 44px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-profile__stroke{
+    position: absolute;
+    left: 56px;
+    top: 8px;
+}
+
+.header__text{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    opacity: 0.7;
+}
+
+.header-profile__text{
+    position: absolute;
+    top: 27px;
+    left: 0;
+}
+.skills {
+    position: absolute;
+    left: 337px;
+    top: 204px;
+    width: 218px;
+}
+
+.header__skills {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.header-skills__stroke {
+    position: absolute;
+    left: 52px;
+    top: 7.5px;
+}
+.skills__list {
+    position: absolute;
+    width: 100%;
+    top: 27px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 173%;
+    letter-spacing: -0.02em;
+    color: #212121;
+}
+
+.skills__list li{
+    background: url(img/icons/oval.svg) 0 5px no-repeat;
+    padding: 0 0 0 19px;
+}
+
+.education {
+    position: absolute;
+    top: 435px;
+    left: 40px;
+    width: 515px;
+}
+
+.header__education {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-education__stroke {
+    position: absolute;
+    top: 7.5px;
+    left: 78px;
+}
+
+.header-education-items{
+    margin: 30px 0 0 0;
+    position: relative;
+}
+.education-item {
+    position: relative;
+    min-height: 40px;  
+    margin: 0 0 12px 0;
+}
+.education-item__period {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 180%;
+    color: #3e6af2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.education-item__header {
+    font-family: "Trirong", sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 164%;
+    color: #212121;
+    position: absolute;
+    top: 0;
+    left: 75px;
+}
+.education-item__text {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 155%;
+    letter-spacing: -0.02em;
+    color: #212121;
+    opacity: 0.7;
+    position: absolute;
+    top: 24px;
+    left: 75px;
+}
+.languages {
+    position: absolute;
+    top: 630px;
+    left: 40px;
+    width: 515px;
+}
+
+.header__languages {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-languages__stroke {
+    position: absolute;
+    top: 7.5px;
+    left: 78px;
+}
+.header-languages-items {
+    margin: 30px 0 0 0;
+    position: relative;
+}
+.languages-item {
+    position: relative;
+    min-height: 40px;  
+    margin: 0 0 12px 0;
+}
+.languages-item__period {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 180%;
+    color: #3e6af2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.languages-item__header {
+     font-family: "Trirong", sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 164%;
+    color: #212121;
+    position: absolute;
+    top: 0;
+    left: 75px;
+}
+.languages-item__text {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 155%;
+    letter-spacing: -0.02em;
+    color: #212121;
+    opacity: 0.7;
+    position: absolute;
+    top: 24px;
+    left: 75px;
+}
+.rs-school-links {
 }
