@@ -1,0 +1,299 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+    padding: 30px;
+}
+
+.cv{
+    width: 595px;
+    height: 842px;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+
+
+
+
+.side-photo__photo{
+    display: inline-block;
+    position: absolute;
+    width: 115px;
+    height: 144px;
+    left: 40px;
+    top: 40px;
+    border-radius: 5px;
+}
+
+.information {
+    position: absolute;
+    left: 175px;
+    top: 37px;
+}
+.specialization {
+    height: 19px;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 0.6px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 19px;
+    color: #3E6AF2;
+    margin: 0 0 5px 0;
+}
+
+
+.name {
+    width: 150px;
+    height: 25px;
+    font-family: 'Trirong';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.3px;
+    color: #212121;
+    margin: 0 0 11px 0;
+}
+
+.contacts li{
+
+    font-family: 'Work Sans';
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: -0.2px;
+    color: #212121;
+    
+    padding: 0 0 0 22px;
+}
+
+.contacts span{
+    opacity: 0.7;
+}
+
+.mail {
+    background: url(img/icons/main.svg) left 3px no-repeat;
+}
+.location {
+    background: url(img/icons/geo.svg) left 3px no-repeat;
+}
+.telegram {
+    background: url(img/icons/compas.svg) left 3px no-repeat;
+}
+.phone-number {
+    background: url(img/icons/phone.svg) left 3px no-repeat;
+}
+
+.header {
+    font-family: "Trirong", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+    color: #212121;
+}
+
+
+
+.profile {
+    position: absolute;
+    left: 40px;
+    top: 204px;
+    width: 270px;
+}
+.header__profile {
+    width: 44px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-profile__stroke{
+    position: absolute;
+    left: 56px;
+    top: 8px;
+}
+
+.header__text{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    opacity: 0.7;
+}
+
+.header-profile__text{
+    position: absolute;
+    top: 27px;
+    left: 0;
+}
+.skills {
+    position: absolute;
+    left: 337px;
+    top: 204px;
+    width: 218px;
+}
+
+.header__skills {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.header-skills__stroke {
+    position: absolute;
+    left: 52px;
+    top: 7.5px;
+}
+.skills__list {
+    position: absolute;
+    width: 100%;
+    top: 27px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 173%;
+    letter-spacing: -0.02em;
+    color: #212121;
+}
+
+.skills__list li{
+    background: url(img/icons/oval.svg) 0 5px no-repeat;
+    padding: 0 0 0 19px;
+}
+
+.education {
+    position: absolute;
+    top: 435px;
+    left: 40px;
+    width: 515px;
+}
+
+.header__education {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-education__stroke {
+    position: absolute;
+    top: 7.5px;
+    left: 78px;
+}
+
+.header-education-items{
+    margin: 30px 0 0 0;
+    position: relative;
+}
+.education-item {
+    position: relative;
+    min-height: 40px;  
+    margin: 0 0 12px 0;
+}
+.education-item__period {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 180%;
+    color: #3e6af2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.education-item__header {
+    font-family: "Trirong", sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 164%;
+    color: #212121;
+    position: absolute;
+    top: 0;
+    left: 75px;
+}
+.education-item__text {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 155%;
+    letter-spacing: -0.02em;
+    color: #212121;
+    opacity: 0.7;
+    position: absolute;
+    top: 24px;
+    left: 75px;
+}
+.languages {
+    position: absolute;
+    top: 630px;
+    left: 40px;
+    width: 515px;
+}
+
+.header__languages {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-languages__stroke {
+    position: absolute;
+    top: 7.5px;
+    left: 78px;
+}
+.header-languages-items {
+    margin: 30px 0 0 0;
+    position: relative;
+}
+.languages-item {
+    position: relative;
+    min-height: 40px;  
+    margin: 0 0 12px 0;
+}
+.languages-item__period {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 180%;
+    color: #3e6af2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.languages-item__header {
+     font-family: "Trirong", sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 164%;
+    color: #212121;
+    position: absolute;
+    top: 0;
+    left: 75px;
+}
+.languages-item__text {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 155%;
+    letter-spacing: -0.02em;
+    color: #212121;
+    opacity: 0.7;
+    position: absolute;
+    top: 24px;
+    left: 75px;
+}
+.rs-school-links {
+}
